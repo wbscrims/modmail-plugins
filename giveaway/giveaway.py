@@ -140,7 +140,7 @@ class GiveawayPlugin(commands.Cog):
                         )
                         await message.edit(embed=embed)
                         await channel.send(
-                            f"🎉 Congratulations {winners_text}, you have won **{giveaway['item']}**!"
+                            f"🎉 Congratulations {winners_text}, you have won **{giveaway['item']}**! "Please dm <@660280540632711189> withni 24h to claim your prize."
                         )
                         try:
                             self.active_giveaways.pop(str(giveaway["message"]))
