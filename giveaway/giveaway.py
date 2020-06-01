@@ -161,6 +161,7 @@ class GiveawayPlugin(commands.Cog):
                 embed.description = (
                     f"React with 🎉 to enter the giveaway!\n\n"
                     f"Time Remaining: **{time_remaining}**"
+                content = f"test"
                 )
                 await message.edit(embed=embed)
                 del channel, guild
